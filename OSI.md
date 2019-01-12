@@ -7,7 +7,7 @@ As the data is sent through each layer, they are sent with an envelope also know
 
 **Example:**
 
-![osi_model](https://i.imgur.com/JEWw0iQ.jpg)
+!(https://raw.githubusercontent.com/sxcdennis/Network/master/images/OSI.jpg)
 
 
 # Application
