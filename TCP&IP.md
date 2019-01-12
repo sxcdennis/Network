@@ -25,7 +25,7 @@ TCP Provides a reliable Connection. TCP enables a connection through handshake-(
 
 Once this connection is established, data can be exchanged through a TCP connection.
 
-![3_handshake](https://i.imgur.com/UOepyNs.jpg)
+![3_handshake](https://github.com/sxcdennis/Network/blob/master/images/threewayshake.jpg?raw=true)
 
 
 # Internet
