@@ -5,26 +5,26 @@ This covers some basic topics within networking (mostly within Linux).
 
 # Table of Contents
 
-- [Network Sharing](# "Network Sharing")
+- [Network Sharing](https://github.com/sxcdennis/Network/blob/master/Network%20Sharing.md "Network Sharing")
 
-- [OSI Model](# "OSI Model")
+- [OSI Model](https://github.com/sxcdennis/Network/blob/master/OSI.md "OSI Model")
 
-- [TCP/IP](# "TCP/IP")
+- [TCP/IP](https://github.com/sxcdennis/Network/blob/master/TCP%26IP.md "TCP/IP")
 
-- [Basic DHCP](# "Basic DHCP")
+- [Basic DHCP](https://github.com/sxcdennis/Network/blob/master/Basic%20DHCP.md "Basic DHCP")
 
-- [Subnetting](# "Subnetting")
+- [Subnetting](https://github.com/sxcdennis/Network/blob/master/Subnetting.md "Subnetting")
 
-- [Basic Routing](# "Basic Routing")
+- [Basic Routing](https://github.com/sxcdennis/Network/blob/master/Basic%20Routing.md "Basic Routing")
 
-- [Basic Network Config](# "Basic Network Config")
+- [Basic Network Config](https://github.com/sxcdennis/Network/blob/master/Basic%20Network%20Config.md "Basic Network Config")
 
-- [Basic Troubleshooting Tools](# "Basic Troubleshooting Tools")
+- [Basic Troubleshooting Tools](https://github.com/sxcdennis/Network/blob/master/Basic%20Trouble%20Shooting%20Tools.md "Basic Troubleshooting Tools")
 
-- [DNS](# "DNS")
+- [DNS](https://github.com/sxcdennis/Network/blob/master/DNS.md "DNS")
 
-- [SSH](# "SSH")
+- [SSH](https://github.com/sxcdennis/Network/blob/master/SSH.md "SSH")
 
-- [SSL & TLS](# "SSL & TLS")
+- [SSL & TLS](https://github.com/sxcdennis/Network/blob/master/SSL%20%26%20TLS.md "SSL & TLS")
 
-- [Port Bonding](# "Port Bonding")
+- [Port Bonding](https://github.com/sxcdennis/Network/blob/master/Port%20Bonding.md "Port Bonding")
