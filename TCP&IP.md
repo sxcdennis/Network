@@ -1,6 +1,6 @@
 # TCP/IP Model
 
-The OSI Model gave birth to the TCP/IP Model. Which is actually used today for internet. Unlike the OSI model, the TCP/IP model consists of 4 layers: Application, Transport, Internet, Link layers (or network access layer).
+The OSI Model gave birth to the TCP/IP Model. Which is actually used today for internet. Unlike the OSI model, the TCP/IP model consists of 4 layers: Application, Transport, Internet(or network) , Link layer/network access or Physical Layer.
 
 
 # Application
@@ -25,25 +25,25 @@ TCP Provides a reliable Connection. TCP enables a connection through handshake-(
 
 Once this connection is established, data can be exchanged through a TCP connection.
 
+**EXAMPLE:**
+
 ![3_handshake](https://github.com/sxcdennis/Network/blob/master/images/threewayshake.jpg?raw=true)
 
 
-# Internet
 
 
+# Network or Internet
+This layer is similar to OSI model's Network layer. This layer specifies how packets are  moved between hosts.
 
-# Link or Network Access Layer
+This layer consists of IP and ICMP.
 
-
-
-
-
-
-
+- IP stands for Internet Protocol: Responsible for routing packets from one host to another.
+- ICMP stands for Internet Control Message Protocol: Responsible for telling hosts network problems.
 
 
+# Link or Network Access Layer or Physical
 
-
+This layer is similar to both the Data Link and Physical Layer of the OSI Model. It is responsible for defining hardware(MAC Addressing). This layer consists of a number of protocols which typically consists with ones that have to do with physical devices (cat5,cat6,NIC's).
 
 
 
