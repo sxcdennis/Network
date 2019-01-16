@@ -5,11 +5,11 @@ The OSI Model gave birth to the TCP/IP Model. Which is actually used today for i
 
 # Application
 
-Similar to the session and presentation layers of the OSI layer, the application layer translates and figures out how computer programs(internet browsers, mail) interact. Common protocols in this layer include: HTTP, FTP, SSH , DNS, DHCP, STMP
+The Application layer is a combination of the Application, Presentation and Session layer of the OSI Model. This layer is responsible for translating and figuring out how computer programs(internet browsers, mail) interact in a network. Common protocols in this layer include: HTTP, FTP, SSH , DNS, DHCP, STMP
 
 # Transport
 
-Typically the  same as the OSI model- Responsible checking & transferring data and ports.  Common protocols include UDP and TCP.
+Typically the same as the OSI model- Responsible checking & transferring data and ports. Common protocols include UDP and TCP.
 
 **UDP (User Datagram Protocol):**
 
@@ -30,8 +30,6 @@ Once this connection is established, data can be exchanged through a TCP connect
 ![3_handshake](https://github.com/sxcdennis/Network/blob/master/images/threewayshake.jpg?raw=true)
 
 
-
-
 # Network or Internet
 This layer is similar to OSI model's Network layer. This layer specifies how packets are  moved between hosts.
 
@@ -44,8 +42,6 @@ This layer consists of IP and ICMP.
 # Link or Network Access Layer or Physical
 
 This layer is similar to both the Data Link and Physical Layer of the OSI Model. It is responsible for defining hardware(MAC Addressing). This layer consists of a number of protocols which typically consists with ones that have to do with physical devices (cat5,cat6,NIC's).
-
-
 
 
 [< Back: OSI](https://github.com/sxcdennis/Network/blob/master/OSI.md "OSI") || [Next: Basic DHCP >](https://github.com/sxcdennis/Network/blob/master/Basic%20DHCP.md "Basic DHCP")
