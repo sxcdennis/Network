@@ -12,14 +12,11 @@ As the data is sent through each layer, they are sent with an envelope also know
 
 # Application
 
-The application layer is the interface that people use to interact with sending and  receiving data. This could be games, email, online, file transfer etc.
-
-
+The application layer is the interface that people use to interact with sending and receiving data. This could be email, online, file transfer etc.
 
 # Presentation
 
 The presentation layer translates how the data will be formatted. Example: jpeg, pdf, png etc..
-
 
 # session
 
@@ -28,12 +25,12 @@ The session layer allows communications between two devices.
 
 # Transport
 
-The transport layer is similar to a firewall control layer. Checks to see if there's any errors.
+The transport layer is similar to a firewall control layer. Checks to see if there's any errors. Common protocols: TCP, UDP
 
 
 # Network
 
-Provides routing finding the best route for delivery. Examples: IP address, Router, Subnet.
+This layer specifies how packets are  moved between hosts. Provides routing finding the best route for delivery. Examples: IP address, Router, Subnet.
 
 
 # Data Link

@@ -2,9 +2,6 @@
 
 In this section we'll go over several ways to share over a network. We will cover: scp, rsync, Simple HTTP Server, Basic NFS, and Samba
 
-
-
-
 # scp
 
 scp is a simple file sharing tool that will help copy through a network. scp stands for secure copy, it works exactly how cp command does but allows you to copy from one host to another on the same network.
