@@ -7,7 +7,7 @@ In this section we'll go over how a DHCP Works, Installing DHCP Server and Confi
 To briefly explain how DHCP works there are 4 steps:
 1. DHCP Discover
 2. DHCP Offer
-3. DHCP request
+3. DHCP Request
 4. DHCP ACK
 
 When a **Client** is connected to a network (with DHCP), it forwards a **DHCPDISCOVER** message to the **DHCP Server**.
