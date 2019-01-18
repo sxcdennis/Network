@@ -14,7 +14,7 @@ FLOODING is when a router doesn't know which way to send a packet then every inc
 
 Use ```route -n``` to show routing table.
 
-![OSI](https://raw.githubusercontent.com/sxcdennis/Network/master/images/routetable.jpg)
+![OSI](https://raw.githubusercontent.com/sxcdennis/Network/master/images/routetable.png)
 
 **Destination**
 
