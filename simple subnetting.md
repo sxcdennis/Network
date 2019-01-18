@@ -168,4 +168,149 @@ Our Host range is all the numbers in-between: **192.168.2.64 - 192.168.2.126**
 So our final answers:
 1. 192.168.2.64
 2. 192.168.2.127
-3. 192.168.2.64 - 192.168.2.126
+3. 192.168.2.65 - 192.168.2.126
+
+# Easy Subnetting
+
+Now that we know the normal way to do subnetting lets learn the easy way.
+We now have to use a new table
+
+```
+
+128|192|224|240|248|252|254|255
+8|16|24
+
+```
+
+
+Here's the formulas
+
+```
+256 - NetMaskNum= MagicNum
+
+OrignalIP/MagicNum= NewNum(rounded down)
+
+NewNum x MagicNum=NetAddr
+
+BroadcastID= (NetAddr + MagicNum) - 1
+
+```
+
+Now you might be wondering how to use these. I'll give a few examples:
+
+In the following examples find the:
+1. Subnet Mask
+2. Network Address
+3. Broadcast Address
+4. Range  
+
+**Example 1**
+
+You are given the following IP Address:
+
+IP Address: **180. 126. 108. 234/ 30**
+
+1. To find the subnet mask we use the 1st chart
+
+```
+
+128|192|224|240|248|252|254|255
+
+8|16|24
+
+```
+
+Take the 2nd row number and see which one is closest to *30*. Which is 24.
+
+Subtract 30 from 24. ( 30-24=6 )
+Use the remainder number on the top row from left to right ( 252 ).
+That is our number.
+So we know that we had to use 3 255's because we used the *24* (each number on the 2nd row represents an octet)
+
+NetmaskNum= 252
+So our subnet mask = 255.255.255.252
+
+Next we use the forumla:
+
+256- NetMaskNum= MagicNum
+256 -252 = 4
+
+OriginalIP/MagicNum= New Num (rouned down)
+So we know the first 3 otects are masked.
+That means 234 is our Orignal  IP
+234/4=58.5(rounded down)= 58
+
+
+NewNum x MagicNum=NetAddr
+58 x 4 =232
+Now we know our Network address
+180.126.108.232
+
+BroadcastID= (NetAddr + MagicNum) - 1
+( 232 + 4 ) - 1= 235
+Now we know our Broadcastaddress
+180.126.108.235
+
+Range = Network Address - Last Number
+
+180.126.108.232-180.126.108.234
+
+1. Subnet Mask : 255.255.255.252
+2. Network Address: 180.126.108.232
+3. Broadcast Address: 180.126.108.235
+4. Range: 180.126.108.232-180.126.108.234
+
+**Example 2**
+
+IP Address: 170.232.1.73/24
+
+
+
+```
+
+128|192|224|240|248|252|254|255
+8|16|24
+
+```
+
+So in this example if it hits either 8/16/24 we don't need to use the forumlas since it's easy to remember.
+Network Mask would be 255.255.255.0
+Network Address would be: 170.232.1.0 (since first 3 otects are masked)
+Broadcast Address= 170.232.1.255
+Range= 170.232.1.0-170.232.1.255
+
+
+**Example 3**
+
+IP ADDRESS: 43.180.18.231/22
+
+```
+
+128|192|224|240|248|252|254|255
+8|16|24
+
+```
+First finding the subnetmask we use the 2nd row.
+22-16= 6
+252 is our NetmaskNum
+255.255.252.0 is our Netmask
+
+
+256 - NetMaskNum= MagicNum
+256-252=4
+
+OrignalIP/MagicNum= NewNum(rounded down)
+18/4=4.5(roundeddown)=4
+
+NewNum x MagicNum=NetAddr
+NetADDR= 4 x 4 =16
+NetAddress43.180.16.0
+
+BroadcastID= (NetAddr + MagicNum) - 1
+(16 + 4)- 1= 19
+Broadcast Address: 43.180.19.255
+
+1. Subnet Mask: 255.255.252.0
+2. Network Address: 43.180.16.0
+3. Broadcast Address: 43.180.19.255
+4. Range: 43.180.16.0-43.180.19.255
