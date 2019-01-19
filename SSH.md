@@ -64,7 +64,7 @@ Enter passphrase (empty for no passphrase):
 
 ```
 
-You can add an addiational security measure by entering a passphrase.
+You can add an additional security measure by entering a passphrase.
 
 Then you should see the following output:
 
@@ -106,7 +106,7 @@ ssh-copy-id -i /path/to/file username@remotehost
 
 Next, the utility will scan your local account for the id_rsa.pub key that we created earlier. When it finds the key, it will prompt you for the password of the remote user's account.
 
-Once you've finsihed typing in the password, the utility will connect to the account on the remote host using the password you provided. It will then copy the contents of your ~/.ssh/id_rsa.pub key into a file in the remote account's home ~/.ssh directory called authorized_keys.
+Once you've finished typing in the password, the utility will connect to the account on the remote host using the password you provided. It will then copy the contents of your ~/.ssh/id_rsa.pub key into a file in the remote account's home ~/.ssh directory called authorized_keys.
 
 **3. Authenticate your Server Using SSH Keys**
 
@@ -126,4 +126,4 @@ ssh username@remote_host
 This is just the basics of ssh, it gets a bit more deep into security and keys.
 
 
-[< Back: DNS](https://github.com/sxcdennis/Network/blob/master/DNS.md "DNS") || [Next: SSL & TLS >](https://github.com/sxcdennis/Network/blob/master/SSL%20%26%20TLS.md "SSL & TLS")
+[< Back: DNS](https://github.com/sxcdennis/Network/blob/master/DNS.md "DNS") || [Next: SSL & TLS >](https://github.com/sxcdennis/Network/blob/master/Network%20Bonding.md "SSL & TLS")
