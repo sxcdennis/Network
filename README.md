@@ -27,6 +27,6 @@ This covers some basic topics within networking (mostly within Linux).
 
 - [SSL & TLS](https://github.com/sxcdennis/Network/blob/master/SSL%20%26%20TLS.md "SSL & TLS")
 
-- [Port Bonding](https://github.com/sxcdennis/Network/blob/master/Port%20Bonding.md "Port Bonding")
+- [Network Bonding](https://github.com/sxcdennis/Network/blob/master/Network%20Bonding.md "Network Bonding")
 
 - [Installing NFS](https://github.com/sxcdennis/Network/blob/master/Installing%20NFS.md "Installing NFS")
