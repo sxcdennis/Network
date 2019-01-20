@@ -95,6 +95,24 @@ ip a
 ```
 If the other cards were put to SALVE and you now  have bond0 with the correct IP address.. Then you should be good!
 
+# Common Bonding Modes
+( Parts Taken from Red Hat Manual )
+
+**Mode 1 (active-backup policy)**
+
+Sets all interfaces to the backup state while one remains active. Upon failure on the active interface, a backup interface replaces it as the only active interface in the bond. The MAC address of the bond in mode 1 is visible on only one port (the network adapter), to prevent confusion for the switch. Mode 1 provides fault tolerance.
+
+**Mode 2 (XOR policy)**
+
+Selects an interface to transmit packages to based on the result of an XOR operation on the source and destination MAC addresses modulo NIC slave count. This calculation ensures that the same interface is selected for each destination MAC address used. Mode 2 provides fault tolerance and load balancing..
+
+**Mode 4 (IEEE 802.3ad policy)**
+
+Creates aggregation groups for which included interfaces share the speed and duplex settings. Mode 4 uses all interfaces in the active aggregation group in accordance with the IEEE 802.3ad specification.
+
+**Mode 5 (adaptive transmit load balancing policy)**
+
+Ensures the outgoing traffic distribution is according to the load on each interface and that the current interface receives all incoming traffic. If the interface assigned to receive traffic fails, another interface is assigned the receiving role instead.  
 
 
 [< Back: SSL & TLS](https://github.com/sxcdennis/Network/blob/master/SSL%20%26%20TLS.md "SSL & TLS") || [Next: Installing NFS >](https://github.com/sxcdennis/Network/blob/master/Installing%20NFS.md "Installing NFS")
