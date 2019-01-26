@@ -1,7 +1,7 @@
 # SSH
 Secure Shell (SSH) is an encrypted protocol used to administer and communicate with other devices. You can log into other devices with the command ssh
 
-#SSH Server Configuration
+# SSH Server Configuration
 
 For Linux, typically OpenSSH is the suite that is provided. If you don't have it installed you can do so by installing ```openssh and openssh-server```
 Start the ssh by running
