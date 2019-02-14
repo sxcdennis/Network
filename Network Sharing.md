@@ -117,7 +117,7 @@ You can access the files in a web browser by typing: http://YOUR_localhost_IPADR
 The most standard network file share for Linux is NFS ( Network File System), NFS allows servers to share directories and files with one or more clients over the network.
 
 We wont get into details of NFS, but to read further about it go to
-[Installing NFS](http://github.com/sxcdennis/Installing%20NFS.md)
+[Installing NFS](http://github.com/sxcdennis/Network/blob/master/Installing%20NFS.md)
 
 
 # Samba
